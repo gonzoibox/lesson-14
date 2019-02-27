@@ -11,6 +11,9 @@
         <input type="text" name="txt">
         <button type="submit">SEND</button>
     </form>
-    <p>You entered this: <%= text %></p>
+    <p><% if (text) {%>
+      <%= text%>
+      <%} %>
+    </p>
   </body>
 </html>
