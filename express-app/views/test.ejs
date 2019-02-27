@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to test page!</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Welcome to test</h1>
+    <p>Fill the form</p>
+    <form method="POST" action="/test">
+        <input type="text" name="txt">
+        <button type="submit">SEND</button>
+    </form>
+    <p>You entered this: <%= text %></p>
+  </body>
+</html>
